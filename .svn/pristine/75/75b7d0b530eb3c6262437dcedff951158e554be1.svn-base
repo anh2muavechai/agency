@@ -1,0 +1,36 @@
+/*
+Theme Name: WebDaiTin
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.contact{
+	.col{
+		padding-bottom: 0px;
+	}
+	.text{
+		color: #fff;
+		font-weight: normal;
+		.fa{
+			font-size: 40px;
+		}
+	}
+		
+}
+.absolute-footer{
+	background: rgb(41, 41, 41);
+	color: #903c31;
+	.footer-primary{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}

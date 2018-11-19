@@ -1,0 +1,3 @@
+Nov 18 2018 13:46:01
+{"type":2,"message":"fopen(E:\\laragon\\www\\public\\working\\agency\/\/E:\/laragon\/www\/public\/working\/agency\/wp-content\/uploads\/sucuri\/.htaccess): failed to open stream: No such file or directory","file":"E:\\laragon\\www\\public\\working\\agency\\wp-content\\plugins\\sucuri-scanner\\src\\hardening.lib.php","line":98}
+

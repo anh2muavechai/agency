@@ -1,0 +1,66 @@
+/*
+Theme Name: WebDaiTin
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.contact .col {
+  padding-bottom: 0px; }
+.contact .text {
+  color: #fff;
+  font-weight: normal; }
+  .contact .text .fa {
+    font-size: 40px; }
+
+.absolute-footer {
+  background: #292929;
+  color: #903c31; }
+  .absolute-footer .footer-primary {
+    width: 100%;
+    text-align: center; }
+
+.center-icon {
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 40px);
+  transform: translate(0, -50%);
+  background: #fff;
+  width: 80px;
+  height: 80px;
+  padding: 5px;
+  border-radius: 50%; }
+  .center-icon .circle {
+    width: 100%;
+    height: 100%;
+    background: #f54f35;
+    display: table; }
+    .center-icon .circle .fa {
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 22px;
+      color: #fff; }
+
+.btn-red {
+  background: #f54f35;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 20px; }
+
+.large-text {
+  color: #fff;
+  font-size: 80px; }
+
+.medium-text {
+  color: #fff;
+  font-size: 50px; }
+
+.small-text {
+  color: #fff;
+  font-size: 30px; }
+
+@media only screen and (max-width: 48em) {
+  /*************** ADD MOBILE ONLY CSS HERE  ***************/ }
+
+/*# sourceMappingURL=style.css.map */
