@@ -42,6 +42,41 @@ Version: 3.0
       font-size: 22px;
       color: #fff; }
 
+.quytrinh .row-border-bottom {
+  /* .box-circle{
+  	font-size: 25px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50% !important;
+      color: gray;
+      background: #fff;
+      border: 2px solid #f54f36;
+      position: relative;
+      &:active, &:focus, &:hover, &.active{
+  	    background: #f54f36;
+  	    color: #fff;
+      }
+      &:after{
+      	content: '';
+  	    background: #f54f36;
+  	    position: absolute;
+  	    bottom: -30px;
+  	    width: 2px;
+  	    height: 30px;
+      }
+  } */ }
+  .quytrinh .row-border-bottom .tabbed-content .tab {
+    width: 25%;
+    margin: 0;
+    font-size: 25px; }
+
+.center {
+  width: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute; }
+
 .btn-red {
   background: #f54f35;
   color: #fff;
