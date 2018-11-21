@@ -6,6 +6,9 @@ Template: flatsome
 Version: 3.0
 */
 /*************** ADD CUSTOM CSS HERE.   ***************/
+.header-wrapper {
+  display: none; }
+
 .contact .col {
   padding-bottom: 0px; }
 .contact .text {
@@ -42,33 +45,61 @@ Version: 3.0
       font-size: 22px;
       color: #fff; }
 
-.quytrinh .row-border-bottom {
-  /* .box-circle{
-  	font-size: 25px;
-      width: 150px;
-      height: 150px;
-      border-radius: 50% !important;
-      color: gray;
-      background: #fff;
-      border: 2px solid #f54f36;
-      position: relative;
-      &:active, &:focus, &:hover, &.active{
-  	    background: #f54f36;
-  	    color: #fff;
-      }
-      &:after{
-      	content: '';
-  	    background: #f54f36;
-  	    position: absolute;
-  	    bottom: -30px;
-  	    width: 2px;
-  	    height: 30px;
-      }
-  } */ }
-  .quytrinh .row-border-bottom .tabbed-content .tab {
-    width: 25%;
-    margin: 0;
-    font-size: 25px; }
+.quytrinh .row-border-bottom .tabbed-content .nav-line {
+  border-bottom: 2px solid #f54f36;
+  padding-bottom: 35px; }
+.quytrinh .row-border-bottom .tabbed-content .tab {
+  width: 25%;
+  margin: 0;
+  font-size: 25px;
+  text-align: center; }
+  .quytrinh .row-border-bottom .tabbed-content .tab a {
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50% !important;
+    color: gray;
+    background: #fff;
+    border: 2px solid #f54f36;
+    position: relative;
+    text-align: center; }
+    .quytrinh .row-border-bottom .tabbed-content .tab a:active, .quytrinh .row-border-bottom .tabbed-content .tab a:focus, .quytrinh .row-border-bottom .tabbed-content .tab a:hover, .quytrinh .row-border-bottom .tabbed-content .tab a.active {
+      background: #f54f36;
+      color: #fff; }
+    .quytrinh .row-border-bottom .tabbed-content .tab a:before {
+      content: '';
+      background: #f54f36;
+      position: absolute;
+      bottom: -35px;
+      width: 2px;
+      height: 35px;
+      top: initial;
+      opacity: initial; }
+    .quytrinh .row-border-bottom .tabbed-content .tab a span {
+      font-size: 22px; }
+.quytrinh .row-border-bottom .tabbed-content .tab-panels {
+  padding-top: 2em; }
+
+.tuvan .wpcf7-form-control {
+  background: #949494;
+  color: #fff;
+  border: none;
+  border-radius: 3px; }
+.tuvan ::placeholder {
+  color: #fff;
+  opacity: 1; }
+.tuvan :-ms-input-placeholder {
+  color: #fff; }
+.tuvan ::-ms-input-placeholder {
+  color: #fff; }
+.tuvan ::-webkit-input-placeholder {
+  color: #fff; }
+.tuvan .medium-2 {
+  max-width: 20%;
+  -ms-flex-preferred-size: 20%;
+  flex-basis: 20%; }
+.tuvan .wpcf7-submit {
+  min-width: 150px; }
 
 .center {
   width: 100%;
@@ -94,6 +125,63 @@ Version: 3.0
 .small-text {
   color: #fff;
   font-size: 30px; }
+
+.chk-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff; }
+
+.chk-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px; }
+
+.chk-container:hover input ~ .checkmark {
+  background-color: #ccc; }
+
+.chk-container input:checked ~ .checkmark {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 2px; }
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none; }
+
+.chk-container input:checked ~ .checkmark:after {
+  display: block; }
+
+.chk-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
 
 @media only screen and (max-width: 48em) {
   /*************** ADD MOBILE ONLY CSS HERE  ***************/ }
