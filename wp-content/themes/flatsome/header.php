@@ -8,7 +8,7 @@
 
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-
+<link rel='stylesheet' id='fontawesome-style-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.7.11' type='text/css' media='all' />
 	<?php wp_head(); ?>
 </head>
 
