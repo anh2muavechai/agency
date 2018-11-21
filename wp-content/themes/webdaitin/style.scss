@@ -135,9 +135,17 @@ Version: 3.0
 		min-width: 150px;
 	}
 }
-
-
-
+.block-sanpham{
+	.img-inner{
+		border: 1px solid #fff;
+	}
+	.flickity-prev-next-button.previous{
+		left: -25px;
+	}
+	.flickity-prev-next-button.next{
+		right: -25px;
+	}
+}
 .center{
 	width: 100%;
     transform: translate(-50%, -50%);

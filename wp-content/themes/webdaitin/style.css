@@ -101,6 +101,13 @@ Version: 3.0
 .tuvan .wpcf7-submit {
   min-width: 150px; }
 
+.block-sanpham .img-inner {
+  border: 1px solid #fff; }
+.block-sanpham .flickity-prev-next-button.previous {
+  left: -25px; }
+.block-sanpham .flickity-prev-next-button.next {
+  right: -25px; }
+
 .center {
   width: 100%;
   transform: translate(-50%, -50%);
