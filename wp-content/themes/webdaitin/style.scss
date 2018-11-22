@@ -7,6 +7,7 @@ Version: 3.0
 */
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
+$site-color: #f54f35;
 .header-wrapper{
 	display: none;
 }
@@ -45,7 +46,7 @@ Version: 3.0
     .circle{
     	width: 100%;
 	    height: 100%;
-	    background: #f54f35;
+	    background: $site-color;
 	    display: table;
 	    .fa{
 	    	display: table-cell;
@@ -155,7 +156,7 @@ Version: 3.0
 }
 
 .btn-red{
-	background: #f54f35;
+	background: $site-color;
 	color: #fff;
 	display: inline-block;
     padding: 10px 20px;
@@ -239,6 +240,70 @@ Version: 3.0
     transform: rotate(45deg);
 }
 //end checkbox
+.slide-sanpham{
+	.large-1-5{
+		max-width: 20%;
+	    -ms-flex-preferred-size: 20%;
+	    flex-basis: 20%;
+	}
+	.col.large-1-5{
+	    padding: 0;
+	}
+	.box-product{
+		min-height: 100px;
+		position: relative;
+	    border: 1px solid #dddd;
+	    cursor: pointer;
+	    color: $site-color
+	}
+}
+.product-detail-wrapper{
+	&.loadding{
+		background: #fff;
+		opacity: 0.5;
+	}
+	padding-top: 50px;
+	.product-title{
+		h2{position: relative}
+		h2:before{
+			content:'';
+			position: absolute;
+		    bottom: -15px;
+		    background: $site-color;
+		    height: 3px;
+		    width: 100px;
+		}
+	}
+	.product-content{
+		padding-top: 41px;
+		iframe{
+			width: 100%;
+			height: 500px;
+			border: none
+		}
+	}
+	.product-detail{
+		h3{
+			color: $site-color;
+		}
+		.entry-content{
+			padding: 15px 0;
+			border-top: 1px solid #ddd;
+		}
+		.list-detail{
+			list-style: none;
+			padding-left: 15px;
+			&>li{
+				border-bottom: 1px solid #ddd;
+				padding-bottom: 10px;
+			}
+			.title{
+				color: gray;
+				font-weight: bold;
+			}
+		}
+	}
+}
 
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
